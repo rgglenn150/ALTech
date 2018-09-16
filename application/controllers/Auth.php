@@ -90,4 +90,10 @@ class Auth extends CI_Controller
         redirect('login');
     }
 
+    public function test()
+    {
+        $data["sample"] = $this->input->get("device_id");
+        echo json_encode($data);
+    }
+
 }

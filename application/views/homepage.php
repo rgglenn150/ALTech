@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="market.php">Market Place</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url("market"); ?>">Market Place</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Supply</a>
